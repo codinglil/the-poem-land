@@ -111,7 +111,7 @@ h1 {
 
 /* contact me page */
 .contact-body {
-  background-color: rgb(104, 199, 142);
+  background-color: rgb(228, 227, 227);
 }
 .contact-gif {
   width: 150px;
@@ -122,7 +122,7 @@ h1 {
 div.contact-info {
   background-color: white;
   display: block;
-  max-width: 400px;
+  max-width: 380px;
 
   border-radius: 8px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
@@ -133,7 +133,7 @@ div.contact-info {
 h3.ways-to-contact {
   color: var(--accent-color);
   font-family: "Shalimar", cursive;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -156,10 +156,58 @@ hr {
   margin-top: none;
 }
 
+/* contact-form-page */
+.message-page {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(228, 227, 227);
+}
+form {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.message-h2 {
+  position: relative;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+form input:not(.btn) {
+  border-radius: 4px;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+form textarea {
+  border-radius: 4px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 15px 20px;
+  width: 350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
 @media (max-width: 700px) {
-  body {
-    overflow-x: hidden;
-  }
   img.hi-gif {
     width: 90px;
     height: 80px;
@@ -177,5 +225,28 @@ hr {
   }
   .poem-intro {
     margin: 10px 15px;
+  }
+  div.contact-info {
+    width: 330px;
+  }
+  .message-page {
+    font-size: 14px;
+  }
+  .btn {
+    width: 200px;
+  }
+  form input:not(.btn) {
+    border-radius: 4px;
+    height: 30px;
+    width: 190px;
+    margin-bottom: 10px;
+  }
+  form {
+    max-width: 330px;
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+  textarea {
+    height: 10em;
   }
 }
