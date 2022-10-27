@@ -179,7 +179,7 @@ form {
   text-align: center;
   color: var(--primary-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 form input:not(.btn) {
@@ -192,7 +192,9 @@ form textarea {
   border-radius: 4px;
 }
 .btn {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+
   padding: 15px 20px;
   width: 350px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -234,6 +236,8 @@ form textarea {
   }
   .btn {
     width: 200px;
+    display: inline;
+    padding: 10px 15px;
   }
   form input:not(.btn) {
     border-radius: 4px;
