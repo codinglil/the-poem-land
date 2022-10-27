@@ -108,6 +108,13 @@ h1 {
 /* language material page */
 
 /* vocabulary page */
+.vocab-img {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: var(--secondary-color);
+  height: 400px;
+  border-radius: 5px;
+}
 
 /* contact me page */
 .contact-body {
