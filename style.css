@@ -65,6 +65,7 @@ h1 {
 }
 .choices {
   margin-top: 70px;
+  margin-bottom: 20px;
 }
 .choices button {
   background-color: var(--secondary-color);
@@ -106,6 +107,15 @@ h1 {
 }
 
 /* language material page */
+.short-video-description {
+  font-size: 20px;
+  margin: 20px auto 5px;
+}
+.language-video {
+  margin: 20px;
+  width: 75%;
+  height: 400px;
+}
 
 /* vocabulary page */
 .vocab-img {
@@ -259,5 +269,10 @@ form textarea {
   }
   textarea {
     height: 10em;
+  }
+  .language-video {
+    margin: 20px;
+    width: 75%;
+    height: 200px;
   }
 }
