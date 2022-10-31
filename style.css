@@ -148,6 +148,7 @@ h1 {
   width: 90%;
   margin-bottom: 20px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 /* vocabulary page */
@@ -259,6 +260,8 @@ form textarea {
   transform: scale(0.98);
 }
 
+/* Responsive */
+
 @media (max-width: 700px) {
   img.hi-gif {
     width: 90px;
@@ -311,5 +314,9 @@ form textarea {
   .col-md-4 img {
     margin-bottom: 10px;
     width: 80%;
+  }
+  .col-sm-12 {
+    height: 250px;
+    margin-bottom: 10px;
   }
 }
