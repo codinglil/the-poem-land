@@ -156,8 +156,23 @@ h1 {
   margin-top: 40px;
   padding: 25px;
   background-color: var(--secondary-color);
-  height: 400px;
+  height: 600px;
+  width: 80%;
   border-radius: 5px;
+}
+p.vocab-intro-text {
+  text-align: center;
+  margin: 0 auto 20px;
+  font-family: "Shalimar", cursive;
+}
+.vocab-text {
+  margin: 20px;
+  text-align: center;
+}
+.vocab-definitions {
+  text-align: justify;
+  margin: 25px 25px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* contact me page */
