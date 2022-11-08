@@ -157,21 +157,24 @@ h1 {
   padding: 25px;
   background-color: var(--secondary-color);
   height: 600px;
-  width: 80%;
+  width: 85%;
   border-radius: 5px;
 }
-p.vocab-intro-text {
+h3.vocab-intro-text {
   text-align: center;
   margin: 0 auto 20px;
   font-family: "Shalimar", cursive;
 }
 .vocab-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
+  padding: 20px;
   text-align: center;
+  background-color: rgb(228, 227, 227);
 }
 .vocab-definitions {
   text-align: justify;
-  margin: 25px 25px 0 0;
+  margin: 25px 25px 0 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -296,6 +299,15 @@ form textarea {
   .poem-intro {
     margin: 10px 15px;
   }
+  h3.vocab-intro-text {
+    font-size: 16px;
+  }
+  .vocab-img {
+    width: 330px;
+    height: 350px;
+    margin-top: 0;
+  }
+
   div.contact-info {
     width: 330px;
   }
