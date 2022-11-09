@@ -338,9 +338,12 @@ form textarea {
     width: 75%;
     height: 200px;
   }
+  .current-video {
+    margin: 0 auto;
+  }
   .col-md-4 img {
     margin-bottom: 10px;
-    width: 80%;
+    width: 85%;
     height: 300px;
   }
   .col-sm-12 {
